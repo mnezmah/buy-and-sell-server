@@ -1,40 +1,50 @@
-const { Router} = require('express')
-const Adds = require('./model')
+const { Router } = require('express')
+const Ads = require('./model')
 
 const router = new Router()
 
 router.get(
-  '/adds/', (req, res, next) => {
-    Adds
-    .findAll()
-    .then(adds => {
-      res
-      .status(200)
-      .send(adds)
-    })
-    .catch(err => 
-      res.send(next(err))
+  '/ads/', (req, res, next) => {
+    Ads
+      .findAll()
+      .then(ads => {
+        res
+          .status(200)
+          .send(ads)
+      })
+      .catch(err =>
+        res.send(next(err))
       )
   }
 )
 
 
-module.exports = router
-
 router.get(
-  '/adds/:id',
+  '/ads/:id',
   (req, res, next) => {
     const id = req.params.id
 
-    Adds
+    Ads
       .findByPk(id)
-      .then(add =>
+      .then(ad =>
         res
           .status(200)
-          .send(add)
+          .send(ad)
       )
       .catch(err =>
         res.send(next(err))
       )
   }
 )
+
+router.post('/ads', (req, res, next) => {
+  Ads
+    .create(req.body)
+    .then(newAd => {
+      res
+        .status(201)
+        .send(newAd)
+    }).catch(next)
+})
+
+module.exports = router

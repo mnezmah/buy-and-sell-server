@@ -5,6 +5,6 @@ const sequelize = new Sequelize(databaseUrl)
 
 sequelize
     .sync()
-    .then(() => console.log('db connected'))
-    .catch(()=> console.error)
-    module.exports = sequelize
+    .then(() => console.log('db schema updated'))
+    .catch(() => console.error)
+module.exports = sequelize
