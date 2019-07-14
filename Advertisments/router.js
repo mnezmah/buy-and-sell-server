@@ -47,4 +47,21 @@ router.post('/ads', (req, res, next) => {
     }).catch(next)
 })
 
+
+router.put('/ads/:id', (req, res, next) => {
+  const id = req.params.id
+
+  Ads
+  .findByPk(id)
+  .then(ad => {
+    ad
+    .update(req.body)
+    .then(updatedAd => 
+      res
+      .status(202)
+      .send(updatedAd)
+      ).catch(next)
+  })
+})
+
 module.exports = router
