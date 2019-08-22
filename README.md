@@ -23,7 +23,7 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 
 - To practice making full-stack app
 - To combine front-end and backend apps in one working project
-- To praclite disciplined git usage
+- To practice disciplined git usage
 
 ## Features built so far:
 
@@ -41,7 +41,7 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 
 These are the available endpoints of the API `@root : http://mywebsite.com`.
 * **POST @root/ads**:  
-    Creates new advertisment.
+    Creates a new advertisment.
     
 * **GET @root/ads**:  
    Returns list of all the advertisments.
