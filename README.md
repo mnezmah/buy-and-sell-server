@@ -35,6 +35,7 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 - Add a comments table in db to be able to comment the ads
 - Create an Authorisation for users
 - Add a delete endpoint for removing the ads
+- Deploy the app on Heroku
 
 ## Endpoints in this API
 
