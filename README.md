@@ -1,7 +1,8 @@
 # Buy-and-sell-server
 ## What this project is about
 
-This is server-side of "Ebay-clone" application using Front and Back technologies. It was created during [the Codaisseuer Academy](https://codaisseur.com/become-a-developer).
+This is server-side of "Ebay-clone" application using Front and Back technologies. 
+It was created during [the Codaisseuer Academy](https://codaisseur.com/become-a-developer).
 
 Take a look at the client side of the project [here](https://github.com/mnezmah/buy-and-sell-client)
 
@@ -10,6 +11,7 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 - **[Technologies used](#technologies-used)**
 - **[Goals for this project](#goals-for-this-project)**
 - **[Features built so far](#features-built-so-far)**
+- **[Endpoints used in API](#endpoints-in-this-API)**
 - **[Featrures to add in the future](#features-to-add-in-the-future)**
 
 ## Technologies used
