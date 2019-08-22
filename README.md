@@ -19,12 +19,12 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 #### 👇Click links to view some samples in this project👇
 
 - **[Express](./db.js)**
-- **[Sequelize](./index.js)**
+- **[Sequelize](./Advertisments/model.js)**
 
 ## Goals for this project:
 
 - To practice making full-stack app
-- To combine front-end and backend apps in one working project
+- To combine front-end and back-end apps in one working project
 - To practice disciplined git usage
 
 ## Features built so far:
