@@ -16,7 +16,7 @@ Take a look at the client side of the project [here](https://github.com/mnezmah/
 
 ## Technologies used
 
-#### 👇Click links to view some samples in this project👇
+#### Click links to view some samples in this project👇
 
 - **[Express](./db.js)**
 - **[Sequelize](./Advertisments/model.js)**
